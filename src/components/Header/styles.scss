@@ -1,22 +1,24 @@
 .nav-bar {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 80px;
   left: 0;
   top: 0;
-  background-color: #FFF;
+  // background-color: #FFF;
+  // background-color: red;
+
 
   .menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    // padding: 0px;
 
     position: absolute;
-    width: 479px;
+    // width: 479px;
+    width: 50%;
     height: 50px;
     margin: 15px 0px 15px 24px;
-    // top: calc(50% - 50px/2 - 1420.5px);
     top: 0;
 
     strong {
@@ -33,19 +35,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    // justify-content: center;
-    padding: 0px;
+    // padding-left: 5%;
 
+    // background-color: red;
     position: absolute;
     width: 368px;
+    // width: 30%;
     height: 50px;
-    right: 24px;
     top: 0;
-    left: 1500px;
-    bottom: 2000px;
+    // left: 70%;
+    right: -1%;
     margin: 15px 0px;
-    // top: calc(50% - 50px/2 - 1420.5px);
-    // background-color: red;
 
     .box {
       display: flex;
@@ -55,6 +55,7 @@
       width: 240px;
       height: 40px;
       background: #FFF;
+      padding-right: 2%;
 
       .search {
         border: none;
@@ -82,18 +83,18 @@
      }
     }
 
-    p {
-      padding-left: 53px;
+    strong {
+      padding-left: 3%;
     }
 
     #cart {
-      padding-left: 53px;
+      padding-left: 3%;
     }
 
   }
 }
 
 //* Cor do placeholder
-::-webkit-input-placeholder  { color:#EE0E7D; }
-input:-moz-placeholder { color:#EE0E7D; }
-textarea:-moz-placeholder { color:#EE0E7D; }
+::-webkit-input-placeholder  { color:#EE0E7D; font-weight: 600; }
+input:-moz-placeholder { color:#EE0E7D; font-weight: 600;}
+textarea:-moz-placeholder { color:#EE0E7D; font-weight: 600;}

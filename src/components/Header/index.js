@@ -23,7 +23,7 @@ export default function Header() {
               <img id="botao"src={search} alt="" />
           </button>
         </div>
-            <p>Login</p>
+            <strong>Login</strong>
             <img id="cart" src={cart} alt="" />
       </div>
 
