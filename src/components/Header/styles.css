@@ -1,0 +1,89 @@
+.nav-bar {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  left: 0;
+  top: 0;
+  background-color: #FFF;
+}
+
+.nav-bar .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 479px;
+  height: 50px;
+  margin: 15px 0px 15px 24px;
+  top: 0;
+}
+
+.nav-bar .menu strong {
+  font-family: Barlow;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.nav-bar .search-login-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 368px;
+  height: 50px;
+  right: 24px;
+  top: 0;
+  left: 1500px;
+  bottom: 2000px;
+}
+
+.nav-bar .search-login-cart .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #F2F2F2;
+  border-radius: 24px;
+  width: 240px;
+  height: 40px;
+  background: #FFF;
+}
+
+.nav-bar .search-login-cart .box .search {
+  border: none;
+  width: 49px;
+  height: 24px;
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #EE0E7D;
+}
+
+.nav-bar .search-login-cart .box #submit {
+  left: 30px;
+  background-color: #FFF;
+  border: none;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
