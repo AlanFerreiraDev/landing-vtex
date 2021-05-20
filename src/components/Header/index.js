@@ -24,7 +24,7 @@ export default function Header() {
           </button>
         </div>
             <p>Login</p>
-            <img src={cart} alt="" />
+            <img id="cart" src={cart} alt="" />
       </div>
 
     </nav>

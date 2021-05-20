@@ -53,6 +53,7 @@
   top: 0;
   left: 1500px;
   bottom: 2000px;
+  margin: 15px 0px;
 }
 
 .nav-bar .search-login-cart .box {
@@ -77,7 +78,8 @@
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #EE0E7D;
+  padding-left: 16px;
+  padding-right: 8em;
 }
 
 .nav-bar .search-login-cart .box #submit {
@@ -85,5 +87,25 @@
   background-color: #FFF;
   border: none;
   text-align: center;
+}
+
+.nav-bar .search-login-cart p {
+  padding-left: 53px;
+}
+
+.nav-bar .search-login-cart #cart {
+  padding-left: 53px;
+}
+
+::-webkit-input-placeholder {
+  color: #EE0E7D;
+}
+
+input:-moz-placeholder {
+  color: #EE0E7D;
+}
+
+textarea:-moz-placeholder {
+  color: #EE0E7D;
 }
 /*# sourceMappingURL=styles.css.map */

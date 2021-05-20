@@ -43,6 +43,7 @@
     top: 0;
     left: 1500px;
     bottom: 2000px;
+    margin: 15px 0px;
     // top: calc(50% - 50px/2 - 1420.5px);
     // background-color: red;
 
@@ -63,11 +64,8 @@
         font-style: normal;
         font-size: 16px;
         line-height: 24px;
-        color: #EE0E7D;
-
-        &[input-placeholder]{
-
-        }
+        padding-left: 16px;
+        padding-right: 8em;
 
 
       }
@@ -78,10 +76,24 @@
         background-color: #FFF;
         border: none;
         text-align: center;
+        // padding-left: ;
 
        
      }
     }
 
+    p {
+      padding-left: 53px;
+    }
+
+    #cart {
+      padding-left: 53px;
+    }
+
   }
 }
+
+//* Cor do placeholder
+::-webkit-input-placeholder  { color:#EE0E7D; }
+input:-moz-placeholder { color:#EE0E7D; }
+textarea:-moz-placeholder { color:#EE0E7D; }
