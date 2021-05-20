@@ -1,30 +1,25 @@
 .nav-bar {
+  // position: fixed;
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   left: 0;
   top: 0;
-  // background-color: #FFF;
-  // background-color: red;
-
 
   .menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    // padding: 0px;
 
     position: absolute;
-    // width: 479px;
     width: 50%;
     height: 50px;
     margin: 15px 0px 15px 24px;
     top: 0;
 
-    strong {
-      font-family: Barlow;
-      font-style: normal;
-      // font-weight: 500;
+    p {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 600;
       font-size: 16px;
       line-height: 24px;
       margin-left: 20px;
@@ -35,27 +30,23 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    // padding-left: 5%;
 
-    // background-color: red;
     position: absolute;
     width: 368px;
-    // width: 30%;
     height: 50px;
     top: 0;
-    // left: 70%;
-    right: -1%;
+    right: 0;
     margin: 15px 0px;
 
     .box {
       display: flex;
       align-items: center;
+      // justify-content: space-between;
       border: 1px solid #F2F2F2;
       border-radius: 24px;
-      width: 240px;
       height: 40px;
       background: #FFF;
-      padding-right: 2%;
+      padding-right: 3%;
 
       .search {
         border: none;
@@ -67,30 +58,23 @@
         line-height: 24px;
         padding-left: 16px;
         padding-right: 8em;
-
-
       }
 
       #submit {
-        // display: relative;
         left: 30px;
         background-color: #FFF;
         border: none;
         text-align: center;
-        // padding-left: ;
-
-       
      }
     }
 
     strong {
-      padding-left: 3%;
+      padding-left: 5%;
     }
 
     #cart {
-      padding-left: 3%;
+      padding-left: 5%;
     }
-
   }
 }
 

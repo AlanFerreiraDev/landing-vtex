@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
-
 import './styles.css'
 
 import logoJussi from './assets/logoJussi.svg';
@@ -11,8 +9,8 @@ export default function Header() {
     <nav className="nav-bar">
       <div className="menu">
         <img src={logoJussi} alt="Logo Jussi" />
-        <strong>Nossas Soluções</strong>
-        <strong>Conheça a Jüssi</strong>
+        <p>Nossas Soluções</p>
+        <p>Conheça a Jüssi</p>
       </div>
 
       <div className="search-login-cart">
